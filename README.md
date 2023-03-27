@@ -1,5 +1,9 @@
 # Novi Takehome #
 
+## Getting Started ##
+
+Run the application with `npm run start`
+
 ## Technologies Used ##
 Tailwind
 Material UI
