@@ -20,11 +20,11 @@ return (
         open={isOpen}
         onClose={onClose}
         >
-            <div className="px-4">
-                <h2>{name}</h2>
-                <p>Phone Number: {phoneNumber}</p>
-                <p>Favorite Color: {favColor}</p>
-                <p>What is Best In Life?: {bestInLife}</p>
+            <div className="p-6">
+                <h2 className="text-xl py-4">{name}</h2>
+                <p className="py-2"><b>Phone Number:</b> {phoneNumber}</p>
+                <p className="py-2"><b>Favorite Color</b>: {favColor}</p>
+                <p className="py-2"><b>What is Best In Life?</b>: {bestInLife}</p>
             </div>
         </Drawer>
     </>

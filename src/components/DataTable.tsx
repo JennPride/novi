@@ -34,8 +34,8 @@ export default function DataTable({data}: DataTableProps) {
     }, [selectedUser])
 
     return (
-      <div className="">
-          <Table sx={{ width: 1/2 }}>
+      <div className="m-auto">
+          <Table sx={{ width: 1/2, margin: 'auto' }} >
           <TableHead>
             <TableRow>
               {displayHeaders.map((header: string) => (
